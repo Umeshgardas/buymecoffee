@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+body {
+    background-color: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-top {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.startmypage {
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 95px;
+    margin-top: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.small-title {
+    margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.yourname:focus {
+    outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yourname::placeholder {
+    opacity: 0.5;
+}
+
+.startbtn {
+    padding: 15px 15px;
+    font-size: 20px;
+}
+
+.main-heading {
+    font-size: 64px;
+    margin-top: 10px;
+}
+
+.lead1 {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    span,
+    .yourname {
+        padding-left: 60px;
+
+    }
+
+    .startbtn {
+        margin: 10px 70px;
+    }
+   
+
 }

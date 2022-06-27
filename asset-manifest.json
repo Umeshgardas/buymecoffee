@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/buymecoffee/static/css/main.fd16f3ee.css",
+    "main.js": "/buymecoffee/static/js/main.2d4dc09a.js",
+    "index.html": "/buymecoffee/index.html",
+    "main.fd16f3ee.css.map": "/buymecoffee/static/css/main.fd16f3ee.css.map",
+    "main.2d4dc09a.js.map": "/buymecoffee/static/js/main.2d4dc09a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd16f3ee.css",
+    "static/js/main.2d4dc09a.js"
+  ]
+}
